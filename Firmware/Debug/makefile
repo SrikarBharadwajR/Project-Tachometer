@@ -38,34 +38,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := RM_TacoMetre_Receiver
+BUILD_ARTIFACT_NAME := Firmware_Tachometer
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-RM_TacoMetre_Receiver.elf \
+Firmware_Tachometer.elf \
 
 MAP_FILES += \
-RM_TacoMetre_Receiver.map \
+Firmware_Tachometer.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-RM_TacoMetre_Receiver.list \
+Firmware_Tachometer.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: RM_TacoMetre_Receiver.elf secondary-outputs
+main-build: Firmware_Tachometer.elf secondary-outputs
 
 # Tool invocations
-RM_TacoMetre_Receiver.elf RM_TacoMetre_Receiver.map: $(OBJS) $(USER_OBJS) /mnt/Storage\ Drive/Projects/STM32/RM_TacoMetre_Receiver/STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "RM_TacoMetre_Receiver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/mnt/Storage Drive/Projects/STM32/RM_TacoMetre_Receiver/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RM_TacoMetre_Receiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Firmware_Tachometer.elf Firmware_Tachometer.map: $(OBJS) $(USER_OBJS) /mnt/Storage\ Drive/Projects/Project\ Tachometer/Firmware/STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Firmware_Tachometer.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/mnt/Storage Drive/Projects/Project Tachometer/Firmware/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Firmware_Tachometer.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -74,14 +74,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-RM_TacoMetre_Receiver.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "RM_TacoMetre_Receiver.list"
+Firmware_Tachometer.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Firmware_Tachometer.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) RM_TacoMetre_Receiver.elf RM_TacoMetre_Receiver.list RM_TacoMetre_Receiver.map default.size.stdout
+	-$(RM) Firmware_Tachometer.elf Firmware_Tachometer.list Firmware_Tachometer.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
