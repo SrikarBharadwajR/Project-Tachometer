@@ -1,4 +1,3 @@
-../USB_DEVICE/Target/usbd_conf.c:637:20:USBD_Get_USB_Status	0	static
 ../USB_DEVICE/Target/usbd_conf.c:69:6:HAL_PCD_MspInit	16	static
 ../USB_DEVICE/Target/usbd_conf.c:88:6:HAL_PCD_MspDeInit	0	static
 ../USB_DEVICE/Target/usbd_conf.c:115:6:HAL_PCD_SetupStageCallback	0	static
@@ -12,7 +11,7 @@
 ../USB_DEVICE/Target/usbd_conf.c:255:6:HAL_PCD_ISOINIncompleteCallback	0	static
 ../USB_DEVICE/Target/usbd_conf.c:269:6:HAL_PCD_ConnectCallback	0	static
 ../USB_DEVICE/Target/usbd_conf.c:283:6:HAL_PCD_DisconnectCallback	0	static
-../USB_DEVICE/Target/usbd_conf.c:298:20:USBD_LL_Init	8	static
+../USB_DEVICE/Target/usbd_conf.c:298:20:USBD_LL_Init	16	static
 ../USB_DEVICE/Target/usbd_conf.c:348:20:USBD_LL_DeInit	8	static
 ../USB_DEVICE/Target/usbd_conf.c:365:20:USBD_LL_Start	8	static
 ../USB_DEVICE/Target/usbd_conf.c:382:20:USBD_LL_Stop	8	static

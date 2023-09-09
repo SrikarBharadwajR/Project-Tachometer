@@ -25,6 +25,7 @@
 #include "string.h"
 #include "fonts.h"
 #include "ssd1306.h"
+#include "usbd_cdc_if.h"
 #include "stdio.h"
 /* USER CODE END Includes */
 
@@ -52,7 +53,7 @@ volatile uint32_t TIM4_OVC = 0;
 /* Private variables ---------------------------------------------------------*/
 I2C_HandleTypeDef hi2c1;
 
-TIM_HandleTypeDef htim4;
+TIM_HandleTypeDef htim2;
 
 UART_HandleTypeDef huart2;
 
@@ -63,9 +64,9 @@ UART_HandleTypeDef huart2;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-static void MX_TIM4_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_USART2_UART_Init(void);
+static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -75,14 +76,13 @@ static void MX_USART2_UART_Init(void);
 
 void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim) {
 	if (state == IDLE) {
-		T1 = TIM4->CCR4;
+		T1 = TIM2->CCR1;
 		TIM4_OVC = 0;
 		state = DONE;
 	} else if (state == DONE) {
-		T2 = TIM4->CCR4;
+		T2 = TIM2->CCR1;
 		ticks = (T2 + (TIM4_OVC * 65536)) - T1;
 		state = IDLE;
-		//TIM4->CCR4 =0;
 	}
 }
 
@@ -115,19 +115,18 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_TIM4_Init();
   MX_I2C1_Init();
   MX_USART2_UART_Init();
   MX_USB_DEVICE_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
 
-	HAL_TIM_Base_Start_IT(&htim4);
-	HAL_TIM_IC_Start_IT(&htim4, TIM_CHANNEL_4);
+	HAL_TIM_Base_Start_IT(&htim2);
+	HAL_TIM_IC_Start_IT(&htim2, TIM_CHANNEL_1);
 	SSD1306_Init();
   /* USER CODE END 2 */
 
@@ -137,18 +136,25 @@ int main(void)
 		char message[15];
 		float RPM = ((F_CLK / (float) ticks)) * 60.0;
 		if (RPM <= 100000) {
-			sprintf(message, "%.1f", RPM);
+			sprintf(message, "%.3f", RPM);
 			SSD1306_GotoXY(0, 0);
 			SSD1306_Puts(message, &Font_16x26, 1);
 			SSD1306_GotoXY(90, 40);
 			SSD1306_Puts("RPM", &Font_11x18, 1);
 		} else {
+			message[0] = 'N';
+			message[1] = 'o';
+			message[2] = ' ';
+			message[3] = 'R';
+			message[4] = 'P';
+			message[5] = 'M';
+			message[6] = '\0';
 			SSD1306_GotoXY(0, 0);
-			SSD1306_Puts("No RPM", &Font_16x26, 1);
-			//SSD1306_UpdateScreen();
+			SSD1306_Puts(message, &Font_16x26, 1);
 		}
 		SSD1306_UpdateScreen();
 		ticks = 1.0;
+		CDC_Transmit_FS((uint8_t *)strcat(message,"\n"), strlen(message));
 		HAL_Delay(1000);
 		SSD1306_Clear();
     /* USER CODE END WHILE */
@@ -239,46 +245,46 @@ static void MX_I2C1_Init(void)
 }
 
 /**
-  * @brief TIM4 Initialization Function
+  * @brief TIM2 Initialization Function
   * @param None
   * @retval None
   */
-static void MX_TIM4_Init(void)
+static void MX_TIM2_Init(void)
 {
 
-  /* USER CODE BEGIN TIM4_Init 0 */
+  /* USER CODE BEGIN TIM2_Init 0 */
 
-  /* USER CODE END TIM4_Init 0 */
+  /* USER CODE END TIM2_Init 0 */
 
   TIM_ClockConfigTypeDef sClockSourceConfig = {0};
   TIM_MasterConfigTypeDef sMasterConfig = {0};
   TIM_IC_InitTypeDef sConfigIC = {0};
 
-  /* USER CODE BEGIN TIM4_Init 1 */
+  /* USER CODE BEGIN TIM2_Init 1 */
 
-  /* USER CODE END TIM4_Init 1 */
-  htim4.Instance = TIM4;
-  htim4.Init.Prescaler = 0;
-  htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim4.Init.Period = 65535;
-  htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-  htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
-  if (HAL_TIM_Base_Init(&htim4) != HAL_OK)
+  /* USER CODE END TIM2_Init 1 */
+  htim2.Instance = TIM2;
+  htim2.Init.Prescaler = 0;
+  htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim2.Init.Period = 65535;
+  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
+  if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
   {
     Error_Handler();
   }
   sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
-  if (HAL_TIM_ConfigClockSource(&htim4, &sClockSourceConfig) != HAL_OK)
+  if (HAL_TIM_ConfigClockSource(&htim2, &sClockSourceConfig) != HAL_OK)
   {
     Error_Handler();
   }
-  if (HAL_TIM_IC_Init(&htim4) != HAL_OK)
+  if (HAL_TIM_IC_Init(&htim2) != HAL_OK)
   {
     Error_Handler();
   }
   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
-  if (HAL_TIMEx_MasterConfigSynchronization(&htim4, &sMasterConfig) != HAL_OK)
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim2, &sMasterConfig) != HAL_OK)
   {
     Error_Handler();
   }
@@ -286,13 +292,13 @@ static void MX_TIM4_Init(void)
   sConfigIC.ICSelection = TIM_ICSELECTION_DIRECTTI;
   sConfigIC.ICPrescaler = TIM_ICPSC_DIV1;
   sConfigIC.ICFilter = 0;
-  if (HAL_TIM_IC_ConfigChannel(&htim4, &sConfigIC, TIM_CHANNEL_4) != HAL_OK)
+  if (HAL_TIM_IC_ConfigChannel(&htim2, &sConfigIC, TIM_CHANNEL_1) != HAL_OK)
   {
     Error_Handler();
   }
-  /* USER CODE BEGIN TIM4_Init 2 */
+  /* USER CODE BEGIN TIM2_Init 2 */
 
-  /* USER CODE END TIM4_Init 2 */
+  /* USER CODE END TIM2_Init 2 */
 
 }
 

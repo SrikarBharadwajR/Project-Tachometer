@@ -12,6 +12,7 @@
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1539:13:HAL_PCD_ResetCallback	0	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1554:13:HAL_PCD_SuspendCallback	0	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1569:13:HAL_PCD_ResumeCallback	0	static
+../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1329:6:HAL_PCD_IRQHandler	40	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1585:13:HAL_PCD_ISOOUTIncompleteCallback	0	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1602:13:HAL_PCD_ISOINIncompleteCallback	0	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1618:13:HAL_PCD_ConnectCallback	0	static
@@ -19,10 +20,9 @@
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1667:19:HAL_PCD_DevConnect	8	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1686:19:HAL_PCD_DevDisconnect	8	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1706:19:HAL_PCD_SetAddress	8	static
-../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1329:6:HAL_PCD_IRQHandler	56	static
-../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1723:19:HAL_PCD_EP_Open	16	static
+../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1723:19:HAL_PCD_EP_Open	8	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1771:19:HAL_PCD_EP_Close	8	static
-../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1802:19:HAL_PCD_EP_Receive	16	static
+../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1802:19:HAL_PCD_EP_Receive	8	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1826:10:HAL_PCD_EP_GetRxCount	0	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1838:19:HAL_PCD_EP_Transmit	16	static
 ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:1866:19:HAL_PCD_EP_SetStall	16	static

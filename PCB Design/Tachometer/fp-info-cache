@@ -1,4 +1,4 @@
-23540313821256702
+23543668356006390
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1587,6 +1587,13 @@ Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_li
 SPST Tactile Switch
 0
 4
+2
+Button_Switch_SMD
+SW_TS09-63-25-WT-160-SMT-TR
+
+
+0
+2
 2
 Button_Switch_SMD
 SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS
@@ -84755,6 +84762,13 @@ rotary encoder
 0
 7
 6
+SSD1306
+128x64OLED
+
+
+0
+4
+4
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
