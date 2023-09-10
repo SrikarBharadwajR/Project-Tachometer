@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 36,
+    "active_layer": 31,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -65,38 +65,13 @@
       40
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Tachometer.kicad_prl",
+    "filename": "Tachometer-rounded.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "Tachometer.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 60,
-          "pos_y": 234,
-          "size_x": 930,
-          "size_y": 784
-        }
-      },
-      {
-        "name": "Tachometer.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 990,
-          "pos_y": 58,
-          "size_x": 1280,
-          "size_y": 359
-        }
-      }
-    ]
+    "files": []
   }
 }
