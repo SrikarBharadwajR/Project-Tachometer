@@ -1,0 +1,18 @@
+Item,Quantity,Reference,Value,Footprint,Manufacturer Part Number,Manfacturer Name,Distributor Part Number,Description
+1,3,"SW2,SW3,SW4",-,SW_TS09-63-25-WT-160-SMT-TR,TS09-63-25-WT-160-SMT-TR,CUI Devices,2223-TS09-63-25-WT-160-SMT-TRCT-ND,Tactile Switch SPST-NO Top Actuated Surface Mount
+2,4,"C13,C15,C14,C4",1uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,GCG21BR71H105KA01L,Murata Electronics,490-GCG21BR71H105KA01LCT-ND,1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)
+3,3,"C1,C2,C6",10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,GRM21BR61E106KA73L,Murata Electronics,490-5523-1-ND,10 µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)
+4,6,"R11,R10,R12,R1,R2,R3",10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,ESR03EZPF1002,Rohm Semiconductor,RHM10KADCT-ND,"10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
+5,1,SW1,POWER,SW_SPDT_PCM12,PCM12SMTR,C&K,401-2016-1-ND,"Slide Switch SPDT Surface Mount, Right Angle"
+6,1,U1,AMS1117-3.3,SOT-223-3_TabPin2,AZ1117H-3.3TRE1,Diodes Incorporated,AZ1117H-3.3TRE1DICT-ND,Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-3
+7,1,D3,Indication LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,5988070107F,Dialight,350-2035-1-ND,Green 568nm LED Indication - Discrete 2V 0603 (1608 Metric)
+8,6,"C7,C8,C9,C10,C5,C3",100nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,GCJ21BR72A104KA01K,Murata Electronics,490-GCJ21BR72A104KA01KCT-ND,0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)
+9,1,Y1,8MHz_Crystal,Crystal_SMD_HC49-SD,FC4SDCBMF8.0-T1,Fox Electronics,631-1010-1-ND,8 MHz ±30ppm Crystal 20pF 80 Ohms HC-49/US
+10,3,"R9,R8,R7",1.5k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,ESR03EZPF1501,Rohm Semiconductor,RHM1.50KADCT-ND,"1.5 kOhms ±1% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
+11,1,J3,USB_B_Micro,USB_Micro-B_GCT_USB3076-30-A,USB3076-30-A,GCT,2073-USB3076-30-ACT-ND,"USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole"
+12,1,R4,500R,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,ESR03EZPJ511,Rohm Semiconductor,RHM510DCT-ND,"510 Ohms ±5% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
+13,1,U3,STM32F103C8Tx,LQFP-48_7x7mm_P0.5mm,STM32F103C8T6TR,STMicroelectronics,497-17666-1-ND,ARM® Cortex®-M3 STM32F1 Microcontroller IC 32-Bit Single-Core 72MHz 64KB (64K x 8) FLASH 48-LQFP (7x7)
+14,1,U2,LMV321,SOT25,LMV321WG-7,Diodes Incorporated,LMV321WG-7DICT-ND,General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-25
+15,1,FB1,120R,L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,MI0603M121R-10,Laird-Signal Integrity Products,240-2375-1-ND,"120 Ohms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm"
+16,2,"C11,C12",33pF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,GQM2195C2E330FB12D,Murata Electronics,490-GQM2195C2E330FB12DCT-ND,"33 pF ±1% 250V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)"
+17,1,R6,0R,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,SFR03EZPJ000,Rohm Semiconductor,511-1823-1-ND,0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thick Film

@@ -7166,7 +7166,7 @@
     )
     (pin "1" (uuid bf6222ce-85a4-4ae9-8c95-2e40afc6a476))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR06") (unit 1)
         )
@@ -7191,7 +7191,7 @@
     )
     (pin "1" (uuid 4ec5cb2e-7b34-4bd0-b67a-3dbea65ab5da))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR015") (unit 1)
         )
@@ -7217,7 +7217,7 @@
     (pin "1" (uuid 72226187-c5d0-4fcd-b241-9f647fbc9120))
     (pin "2" (uuid 490f1b08-6964-47b3-a4e7-b47ed88c2b85))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R2") (unit 1)
         )
@@ -7242,7 +7242,7 @@
     )
     (pin "1" (uuid 5acf511c-d535-4305-9284-602412f74ecb))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "J8") (unit 1)
         )
@@ -7268,7 +7268,7 @@
     (pin "1" (uuid b721298c-c10b-4e0c-92bc-643db1c4b136))
     (pin "2" (uuid 5b9e31b3-0d0f-402b-b4d9-53de4ece8958))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R12") (unit 1)
         )
@@ -7294,7 +7294,7 @@
     (pin "1" (uuid f8f1ef9f-896b-4fb5-a756-ffae16e1e78d))
     (pin "2" (uuid d9441c8f-ccd7-40ad-87cb-17a96540271f))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C6") (unit 1)
         )
@@ -7319,7 +7319,7 @@
     )
     (pin "1" (uuid 1b0fd3b0-5c48-47a7-a734-4a1d0f21104e))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR02") (unit 1)
         )
@@ -7345,7 +7345,7 @@
     (pin "1" (uuid 126ac049-405c-4a78-a914-c397d7f4a829))
     (pin "2" (uuid 2e4f3c56-6935-4f10-b359-f90cccd0837a))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "SW3") (unit 1)
         )
@@ -7373,7 +7373,7 @@
     (pin "3" (uuid 36c6472e-fe46-4cfb-a8e9-3bc5ef9b1387))
     (pin "4" (uuid 711ccf5e-c74f-451e-8c6b-83e95edc8af8))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "J1") (unit 1)
         )
@@ -7399,7 +7399,7 @@
     (pin "1" (uuid e9512870-86bb-481b-bc7a-c5c69721d5af))
     (pin "2" (uuid 80b3b6ca-87bc-4fca-8427-52b5da4f0b71))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C10") (unit 1)
         )
@@ -7424,7 +7424,7 @@
     )
     (pin "1" (uuid 2b0b8b10-647b-4d63-9c0c-e859630bf413))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR03") (unit 1)
         )
@@ -7452,7 +7452,7 @@
     (pin "3" (uuid c6239662-881f-4e79-8532-f01f034cec50))
     (pin "4" (uuid 2604738b-597a-44c7-9d0b-af744524d9b9))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "J4") (unit 1)
         )
@@ -7477,7 +7477,7 @@
     )
     (pin "1" (uuid 444d4db1-cf9d-4a61-808d-7b612f865c77))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "J7") (unit 1)
         )
@@ -7502,7 +7502,7 @@
     )
     (pin "1" (uuid bc26edb5-356b-4cc7-9e5c-00d93a32ae5a))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "J9") (unit 1)
         )
@@ -7528,7 +7528,7 @@
     (pin "1" (uuid 2e1c76bf-d20f-48c1-8e19-b7c2ea416959))
     (pin "2" (uuid ec4579d4-5110-4aa4-903c-c520c2e84527))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C8") (unit 1)
         )
@@ -7553,7 +7553,7 @@
     )
     (pin "1" (uuid e998e8ec-0257-446c-91ec-9cf8c01177b1))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR07") (unit 1)
         )
@@ -7582,7 +7582,7 @@
     (pin "1" (uuid b3010510-299c-48dc-8df4-9b2d17bc42ea))
     (pin "2" (uuid 77aa4c76-4f85-4d7c-8dce-27c290bac214))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C12") (unit 1)
         )
@@ -7607,7 +7607,7 @@
     )
     (pin "1" (uuid 5dde46d2-6ba9-4a39-9a97-1ef016e5f478))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR013") (unit 1)
         )
@@ -7635,7 +7635,7 @@
     (pin "3" (uuid acf7dd18-4498-4d69-95e4-6a85756eb4cf))
     (pin "4" (uuid 8c2032d4-b797-4a1f-9f66-e07bd27d66a1))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "J5") (unit 1)
         )
@@ -7661,7 +7661,7 @@
     (pin "1" (uuid e84a4458-cd75-4809-ae7c-dc199a3a9b17))
     (pin "2" (uuid 10a5086c-510b-421b-b3b7-666ca3bb8029))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "D1") (unit 1)
         )
@@ -7687,7 +7687,7 @@
     (pin "1" (uuid 8572700d-45a1-4544-8cdc-3d768fcfafc8))
     (pin "2" (uuid aa0432f8-61bb-4353-9634-00c5b94e9a9c))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C4") (unit 1)
         )
@@ -7713,7 +7713,7 @@
     (pin "1" (uuid bb1376b7-0932-40ec-98b5-253f3e22c064))
     (pin "2" (uuid b699fc38-63f4-44a9-87ab-7941c7fde33f))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C14") (unit 1)
         )
@@ -7738,7 +7738,7 @@
     )
     (pin "1" (uuid e1117900-becc-46c8-8a92-66b58908c2ee))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR01") (unit 1)
         )
@@ -7764,7 +7764,7 @@
     (pin "1" (uuid c74ac01a-b078-4bf3-8cf2-d41079131614))
     (pin "2" (uuid fab84211-0dc5-46c8-99b8-674a1273e623))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "SW4") (unit 1)
         )
@@ -7790,7 +7790,7 @@
     (pin "1" (uuid 99bd2ab3-84f1-4bfd-9ae4-13725aff86de))
     (pin "2" (uuid 420aed31-d2b2-4f03-8e01-eb728af0433f))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C3") (unit 1)
         )
@@ -7816,7 +7816,7 @@
     (pin "1" (uuid 13bb55e5-114a-441d-8bd3-44a5ccb2f78b))
     (pin "2" (uuid 905b5e6e-af45-40bd-89b8-e9e8947ecf06))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R7") (unit 1)
         )
@@ -7842,7 +7842,7 @@
     (pin "1" (uuid fcbe8e83-c060-4174-b0e3-689ee899c103))
     (pin "2" (uuid 5d4e64ec-4388-4883-95f0-36dbc81030e4))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R3") (unit 1)
         )
@@ -7868,7 +7868,7 @@
     (pin "1" (uuid c051ba3e-6ed9-4582-a52d-c83165af69e3))
     (pin "2" (uuid e891d63a-d98e-469b-a3f8-1983e4da0675))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R11") (unit 1)
         )
@@ -7894,7 +7894,7 @@
     (pin "1" (uuid 87a9de7d-fb30-46da-82ba-3e0d589981e6))
     (pin "2" (uuid eed8998f-3da4-4b04-9ad2-f62eeb38a279))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "FB1") (unit 1)
         )
@@ -7920,7 +7920,7 @@
     (pin "1" (uuid 06d26bfa-a963-462e-bbd3-1d30455e434e))
     (pin "2" (uuid 26e5b7b6-e127-4737-bf55-ae460921c146))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R1") (unit 1)
         )
@@ -7945,7 +7945,7 @@
     )
     (pin "1" (uuid 14e048ca-9b7e-493d-92b7-d3493868a524))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR08") (unit 1)
         )
@@ -7971,7 +7971,7 @@
     (pin "1" (uuid b1d045df-ff7c-4c9d-98dc-e8efa26c0c58))
     (pin "2" (uuid eb4844e6-8f66-41a2-a9e4-62c6f54847fd))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C5") (unit 1)
         )
@@ -7997,7 +7997,7 @@
     (pin "1" (uuid b1401636-15b2-4604-bab2-eb71676a57b0))
     (pin "2" (uuid 32bc3c9e-0e7f-4215-bebf-52ab393a63b7))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C2") (unit 1)
         )
@@ -8027,7 +8027,7 @@
     (pin "5" (uuid 50afef09-b2f0-4761-aa4a-14a7a5185e34))
     (pin "6" (uuid d71a5a00-3c2e-4044-8f8d-a78145cc8b3f))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "J3") (unit 1)
         )
@@ -8052,7 +8052,7 @@
     )
     (pin "1" (uuid 9b335e7a-b2ba-4db0-b7e2-adfedbc5d316))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR014") (unit 1)
         )
@@ -8078,7 +8078,7 @@
     (pin "1" (uuid ddf9bc82-1d84-493d-91da-b13190c9a0dd))
     (pin "2" (uuid f71b77cd-826a-404d-901f-518f83a9b03c))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R8") (unit 1)
         )
@@ -8102,7 +8102,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#SYM1") (unit 1)
         )
@@ -8129,7 +8129,7 @@
     (pin "2" (uuid ea3dcd2c-2a2f-4358-baec-d8d4da14bfd8))
     (pin "3" (uuid 9466fbe3-268b-45bb-8fc8-7da4eddec2c2))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "RV1") (unit 1)
         )
@@ -8155,7 +8155,7 @@
     (pin "1" (uuid f8560658-b82b-4c58-a419-8e12a57c10ce))
     (pin "2" (uuid c51b3564-2527-4399-ad86-9c90a51ea131))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "D2") (unit 1)
         )
@@ -8181,7 +8181,7 @@
     (pin "1" (uuid 40cba223-9a7b-4267-a746-4a49b4a90fe0))
     (pin "2" (uuid 1ed05577-927f-480d-90f9-ed2be490e11b))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "SW2") (unit 1)
         )
@@ -8207,7 +8207,7 @@
     (pin "1" (uuid 14f06f33-963a-4183-ba99-3e862fa64742))
     (pin "2" (uuid 56501114-b0cf-44ed-ac9b-626aec62260b))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C1") (unit 1)
         )
@@ -8233,7 +8233,7 @@
     (pin "1" (uuid a3312489-f264-4501-a6db-9085838bf860))
     (pin "2" (uuid 3d82190e-bb93-4e93-9aac-f96e93aabe42))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R5") (unit 1)
         )
@@ -8259,7 +8259,7 @@
     (pin "1" (uuid eca762ec-4b7c-407f-b08d-67d464c3f8a6))
     (pin "2" (uuid 5769575b-a88d-41b8-9990-43499e973d83))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R6") (unit 1)
         )
@@ -8285,7 +8285,7 @@
     (pin "1" (uuid f6d2b57b-3cf2-450d-8734-7097cdda3f59))
     (pin "2" (uuid 9055cd7a-8950-4df1-a626-65f8333ec5a8))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C9") (unit 1)
         )
@@ -8311,7 +8311,7 @@
     (pin "1" (uuid 31b187df-2fd1-43b6-b2bb-930f79afb110))
     (pin "2" (uuid f1effe0b-7e94-48a0-a467-39bb0ae20bb5))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R9") (unit 1)
         )
@@ -8336,7 +8336,7 @@
     )
     (pin "1" (uuid 159bfe08-2b54-4aca-b250-8ff987b34763))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR04") (unit 1)
         )
@@ -8362,7 +8362,7 @@
     (pin "1" (uuid 7613f52b-53bc-432d-804d-96111e5b3ce0))
     (pin "2" (uuid b02eeb24-90cd-45b0-a009-697b0933dfeb))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C7") (unit 1)
         )
@@ -8386,7 +8386,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#G1") (unit 1)
         )
@@ -8412,7 +8412,7 @@
     (pin "1" (uuid 21a4601c-8842-40b8-88e5-67049cee4a22))
     (pin "2" (uuid 042d601d-c1f7-42cc-be31-9154edb1c5d9))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C15") (unit 1)
         )
@@ -8441,7 +8441,7 @@
     (pin "3" (uuid 7d9cd25f-1363-47b4-8646-9cd91140fef1))
     (pin "4" (uuid e5818377-ec4a-4a1b-a8bc-298d3cbe6ac0))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "U2") (unit 1)
         )
@@ -8468,7 +8468,7 @@
     (pin "2" (uuid 2a877649-c2c5-4058-9c7f-950b03a4cc45))
     (pin "3" (uuid 841ca0f9-56f1-403f-b443-78b483073ef0))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "J2") (unit 1)
         )
@@ -8495,7 +8495,7 @@
     (pin "2" (uuid cc7eb68c-6dd5-49ce-a55b-ecbb69123779))
     (pin "3" (uuid cb28f516-f714-4572-a9c4-6c15a8ab0a41))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "SW1") (unit 1)
         )
@@ -8520,7 +8520,7 @@
     )
     (pin "1" (uuid d6f932b1-9605-4318-886d-d80cc7a9f4d2))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR010") (unit 1)
         )
@@ -8546,7 +8546,7 @@
     (pin "1" (uuid 45e7ac80-7159-4f78-a9fd-51d08cb2011e))
     (pin "2" (uuid a587b0d8-f733-442c-b6bd-7ec6b41d6d73))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "Y1") (unit 1)
         )
@@ -8571,7 +8571,7 @@
     )
     (pin "1" (uuid ade7167c-7b9e-4392-9630-e09499206cdf))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR011") (unit 1)
         )
@@ -8596,7 +8596,7 @@
     )
     (pin "1" (uuid b9587bf7-8a79-46ed-b06c-05af1abf49f3))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR05") (unit 1)
         )
@@ -8622,7 +8622,7 @@
     (pin "1" (uuid 1e700a7e-4cb3-46c6-a775-c0647280d6f5))
     (pin "2" (uuid 8b9bf4f1-50ee-456b-9d94-a9ea1712f491))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R10") (unit 1)
         )
@@ -8648,7 +8648,7 @@
     (pin "1" (uuid 794a4560-bbbd-4661-9d42-fa5004a47b20))
     (pin "2" (uuid 0b06a271-0ed6-437b-98c5-3b0e117c5cdf))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C13") (unit 1)
         )
@@ -8675,7 +8675,7 @@
     (pin "2" (uuid ac97063e-b7a2-429a-a3c8-fb9e62b090bd))
     (pin "3" (uuid 1773304b-8a71-4b57-8ab9-fd8033da75e5))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "U1") (unit 1)
         )
@@ -8701,7 +8701,7 @@
     (pin "1" (uuid 19aa1c4a-c72d-46d3-9508-64df26795f02))
     (pin "2" (uuid fcecce5d-35d4-49cd-a008-a82ff590c2fc))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "D3") (unit 1)
         )
@@ -8730,7 +8730,7 @@
     (pin "1" (uuid 3b500934-b8c7-4753-ab7f-171901d556e6))
     (pin "2" (uuid f4720f3c-502b-4481-a120-a98a56a3e048))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "C11") (unit 1)
         )
@@ -8755,7 +8755,7 @@
     )
     (pin "1" (uuid ef5acf15-c7ce-4f70-bd69-c299d284abf2))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR09") (unit 1)
         )
@@ -8780,7 +8780,7 @@
     )
     (pin "1" (uuid f17a04c9-18c5-4b39-99e7-3302a0eae250))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "J6") (unit 1)
         )
@@ -8794,7 +8794,7 @@
     (property "Reference" "R4" (at 75.311 38.1579 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (at 75.311 40.5821 0)
+    (property "Value" "500R" (at 75.311 40.5821 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 74.676 39.624 90)
@@ -8806,7 +8806,7 @@
     (pin "1" (uuid 051be777-9d13-4090-8e9c-a2ac47900d64))
     (pin "2" (uuid fab76170-06a6-45c4-aa37-ad5f25db252d))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "R4") (unit 1)
         )
@@ -8878,7 +8878,7 @@
     (pin "8" (uuid d9208254-deb4-4805-be89-8aa7a91a7c53))
     (pin "9" (uuid 94a2b6be-9bab-4f62-8a7f-54af6f0199a7))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "U3") (unit 1)
         )
@@ -8903,7 +8903,7 @@
     )
     (pin "1" (uuid a8542711-7807-4bcd-a060-5a6d49b704a0))
     (instances
-      (project "Tachometer-rounded"
+      (project "Tachometer"
         (path "/1662ab24-9395-4460-a0e9-8a8a0e72c99d"
           (reference "#PWR012") (unit 1)
         )
